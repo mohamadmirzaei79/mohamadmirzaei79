@@ -18,43 +18,10 @@ Open to remote backend and DevOps roles and freelance projects. [Contact me on L
 
 ## Featured projects
 
-### SupplyNote · ERP inventory intelligence
-
-[![SupplyNote procurement workspace](https://raw.githubusercontent.com/mohamadmirzaei79/SupplyNote/main/preview.png)](https://mohamadmirzaei79.github.io/SupplyNote/)
-
-Investigate stock shortages, ask when replenishment will arrive, and inspect the ERP document behind each answer. The local intent classifier and inventory lookup expose per-request traces and server-side Prometheus metrics.
-
-[Try the planning desk](https://mohamadmirzaei79.github.io/SupplyNote/) · [Explore the implementation](https://github.com/mohamadmirzaei79/SupplyNote)
-
 <table>
-<tr>
-<td width="50%" valign="top">
-
-### [RelayDesk](https://github.com/mohamadmirzaei79/RelayDesk)
-
-**Incident response & shift handoff**
-
-[![RelayDesk incident queue and timeline](https://raw.githubusercontent.com/mohamadmirzaei79/RelayDesk/main/preview.png)](https://mohamadmirzaei79.github.io/RelayDesk/)
-
-Record a mitigation for **INC-1042** and watch the shift briefing update. The browser demo illustrates the workflow. In the connected edition, FastAPI and PostgreSQL commit each decision and its timeline entry together, with version checks for conflicting edits.
-
-[Try the incident desk ↗](https://mohamadmirzaei79.github.io/RelayDesk/) · [API](https://github.com/mohamadmirzaei79/RelayDesk/blob/main/api.py) · [Integration test](https://github.com/mohamadmirzaei79/RelayDesk/blob/main/test_gateway.mjs)
-
-</td>
-<td width="50%" valign="top">
-
-### [ReleaseScope](https://github.com/mohamadmirzaei79/ReleaseScope)
-
-**Deployment performance analysis**
-
-[![ReleaseScope checkout latency before and after deployment](https://raw.githubusercontent.com/mohamadmirzaei79/ReleaseScope/main/dashboard.png)](https://mohamadmirzaei79.github.io/ReleaseScope/)
-
-Investigate a sample checkout release where p95 latency climbs from **225 to 374 ms**. The dashboard and FastAPI endpoint share a Python analysis engine that reports which latency or error threshold triggered a review.
-
-[Explore a release ↗](https://mohamadmirzaei79.github.io/ReleaseScope/) · [Analysis code](https://github.com/mohamadmirzaei79/ReleaseScope/blob/main/analysis_core.py) · [Tests](https://github.com/mohamadmirzaei79/ReleaseScope/blob/main/test_analysis.py)
-
-</td>
-</tr>
+<tr><td width="34%" valign="middle"><a href="https://mohamadmirzaei79.github.io/SupplyNote/"><img width="320" alt="SupplyNote workspace" src="https://raw.githubusercontent.com/mohamadmirzaei79/SupplyNote/main/preview.png"></a></td><td width="66%" valign="middle"><h3>SupplyNote</h3><strong>ERP inventory & conversational AI</strong><p>Investigate a projected shortage, open the supporting ERP order and inspect chatbot response latency.</p><a href="https://mohamadmirzaei79.github.io/SupplyNote/">Live demo</a> · <a href="https://github.com/mohamadmirzaei79/SupplyNote">Source code</a></td></tr>
+<tr><td width="34%" valign="middle"><a href="https://mohamadmirzaei79.github.io/RelayDesk/"><img width="320" alt="RelayDesk workspace" src="https://raw.githubusercontent.com/mohamadmirzaei79/RelayDesk/main/preview.png"></a></td><td width="66%" valign="middle"><h3>RelayDesk</h3><strong>Incident response & shift handoff</strong><p>Record a mitigation for INC-1042, follow its incident timeline and hand the next shift a briefing.</p><a href="https://mohamadmirzaei79.github.io/RelayDesk/">Live demo</a> · <a href="https://github.com/mohamadmirzaei79/RelayDesk">Source code</a></td></tr>
+<tr><td width="34%" valign="middle"><a href="https://mohamadmirzaei79.github.io/ReleaseScope/"><img width="320" alt="ReleaseScope workspace" src="https://raw.githubusercontent.com/mohamadmirzaei79/ReleaseScope/main/dashboard.png"></a></td><td width="66%" valign="middle"><h3>ReleaseScope</h3><strong>Deployment performance analysis</strong><p>Investigate a checkout release where p95 latency rises from 225 to 374 ms and review the threshold behind the verdict.</p><a href="https://mohamadmirzaei79.github.io/ReleaseScope/">Live demo</a> · <a href="https://github.com/mohamadmirzaei79/ReleaseScope">Source code</a></td></tr>
 </table>
 
 ## Experience
