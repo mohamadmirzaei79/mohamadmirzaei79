@@ -1,27 +1,45 @@
-![Mohamad Mirzaei | Backend Engineering and DevOps](./profile-banner.png)
+<p align="center"><img src="./profile-banner.png" alt="Mohamad Mirzaei · Python Backend Developer and DevOps Engineer"></p>
 
-I build Python APIs and the systems that run them. I started in DevOps in 2022, helping applications move to Linux and Kubernetes. Today I bring that experience to backend development at Sobhan Tech, where my work spans the API, the test suite, and the release pipeline.
+<h2 align="center">Hi, I’m Mohamad 👋</h2>
 
-**Isfahan, Iran** · Open to remote roles and freelance projects · [Connect on LinkedIn](https://www.linkedin.com/in/mohammad-mirzaei-3802b724a)
+<p align="center">I build Python services and take them from the first endpoint to a monitored Kubernetes deployment.<br>Based in Isfahan, Iran · Open to remote roles and freelance projects</p>
 
-## Backend development at Sobhan Tech
+<p align="center"><a href="https://www.linkedin.com/in/mohammad-mirzaei-3802b724a"><strong>Connect on LinkedIn</strong></a> &nbsp;·&nbsp; <a href="https://mohamadmirzaei79.github.io/ReleaseScope/"><strong>Try my live demo ↗</strong></a></p>
 
-*Python Backend Developer · November 2024 – present*
+## Featured project · ReleaseScope
 
-| Area | What I work on |
-| :--- | :--- |
-| **API & interfaces** | I develop backend services with FastAPI, build conversational interfaces with Chainlit, and contribute to frontend development with Node.js. |
-| **Testing** | I maintain unit tests for individual pieces of logic, integration tests for the boundaries between components, and end-to-end tests that exercise a complete user flow. |
-| **Delivery** | I maintain the CI/CD pipelines and Docker image repositories behind our releases. I use Helm charts to describe deployments and Argo CD to roll them out to Kubernetes. |
+**Did the latest deployment make checkout slower?** ReleaseScope compares traffic before and after a release. In the checkout demo, 95% of requests finished within **225 ms** before deployment. Afterward, that rose to **374 ms**, while the server error rate climbed from **0.24% to 2.17%**. Switch releases to see how a healthy deployment compares.
 
-## Infrastructure at Mohaymen ICT
+[![ReleaseScope dashboard showing checkout latency before and after deployment](https://raw.githubusercontent.com/mohamadmirzaei79/ReleaseScope/main/dashboard.png)](https://mohamadmirzaei79.github.io/ReleaseScope/)
 
-*DevOps Engineer · June 2022 – October 2024*
+The public demo uses reproducible sample traffic. The FastAPI endpoint accepts your own request timings and HTTP status codes. Both use the same Python functions to calculate percentiles and flag regressions.
 
-**Containers and orchestration.** I packaged applications with Docker, supported their migration to Linux, and managed application deployments on Kubernetes with Argo CD.
+[Open the demo ↗](https://mohamadmirzaei79.github.io/ReleaseScope/) · [Explore the source](https://github.com/mohamadmirzaei79/ReleaseScope) · [Read the tests](https://github.com/mohamadmirzaei79/ReleaseScope/blob/main/test_analysis.py)
 
-**GitOps and monitoring.** I introduced infrastructure as code and GitOps practices with GitLab so infrastructure changes could be tracked in version control. On the operations side, I used Prometheus for metrics and Grafana dashboards to see how systems behaved after deployment.
+## Engineering experience
 
-## Background
+**Sobhan Tech · Python Backend Developer**  
+November 2024 – present
 
-I studied electrical engineering at Isfahan University of Technology. My robotics background includes teaching microcontroller programming and placing third in junior robot soccer at Iran Open RoboCup in 2018.
+- I build APIs with FastAPI and conversational interfaces with Chainlit. My tests cover individual functions, interactions between components, and end-to-end user flows.
+- I maintain CI/CD pipelines and Docker image repositories. I package applications with Helm and deploy them to Kubernetes with Argo CD.
+
+**Mohaymen ICT · DevOps Engineer**  
+June 2022 – October 2024
+
+- I containerized applications with Docker, helped migrate them to Linux, and managed Kubernetes deployments with Argo CD.
+- I introduced infrastructure as code and GitOps practices with GitLab. I used Prometheus metrics and Grafana dashboards to track how services behaved after deployment.
+
+## Tools I work with
+
+| Area | Tools |
+| --- | --- |
+| **Backend** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-007F73?style=flat&logo=fastapi&logoColor=white) ![Chainlit](https://img.shields.io/badge/Chainlit-435269?style=flat&logo=chainlit&logoColor=white) |
+| **Delivery** | ![Docker](https://img.shields.io/badge/Docker-186BB0?style=flat&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-345BC5?style=flat&logo=kubernetes&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-263381?style=flat&logo=helm&logoColor=white) ![Argo CD](https://img.shields.io/badge/Argo%20CD-B34C30?style=flat&logo=argo&logoColor=white) ![GitLab CI/CD](https://img.shields.io/badge/GitLab%20CI%2FCD-993E1E?style=flat&logo=gitlab&logoColor=white) |
+| **Monitoring** | ![Prometheus](https://img.shields.io/badge/Prometheus-AD402A?style=flat&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-92501C?style=flat&logo=grafana&logoColor=white) |
+
+## Let’s connect
+
+If your team needs someone who can build a Python service, test it, and own its path to Kubernetes, [reach me on LinkedIn](https://www.linkedin.com/in/mohammad-mirzaei-3802b724a).
+
+<sub>Electrical engineering graduate of Isfahan University of Technology · Third place in junior robot soccer, Iran Open RoboCup 2018.</sub>
