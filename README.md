@@ -14,15 +14,42 @@ I’m open to remote roles and freelance projects. [Connect on LinkedIn](https:/
 | **Delivery** | ![Docker](https://img.shields.io/badge/Docker-186BB0?style=flat&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-345BC5?style=flat&logo=kubernetes&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-263381?style=flat&logo=helm&logoColor=white) ![Argo CD](https://img.shields.io/badge/Argo%20CD-B34C30?style=flat&logo=argo&logoColor=white) ![GitLab CI/CD](https://img.shields.io/badge/GitLab%20CI%2FCD-993E1E?style=flat&logo=gitlab&logoColor=white) |
 | **Monitoring** | ![Prometheus](https://img.shields.io/badge/Prometheus-AD402A?style=flat&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-92501C?style=flat&logo=grafana&logoColor=white) |
 
-## Featured project · ReleaseScope
+## Featured projects
 
-**Did the latest deployment make checkout slower?** ReleaseScope compares traffic before and after a release. In the checkout demo, 95% of requests finished within **225 ms** before deployment. Afterward, that rose to **374 ms**, while the server error rate climbed from **0.24% to 2.17%**. Switch releases to see how a healthy deployment compares.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-[![ReleaseScope dashboard showing checkout latency before and after deployment](https://raw.githubusercontent.com/mohamadmirzaei79/ReleaseScope/main/dashboard.png)](https://mohamadmirzaei79.github.io/ReleaseScope/)
+### [RelayDesk](https://github.com/mohamadmirzaei79/RelayDesk)
 
-The public demo uses reproducible sample traffic. The FastAPI endpoint accepts your own request timings and HTTP status codes. Both use the same Python functions to calculate percentiles and flag regressions.
+**Incident response & shift handoff**
 
-[Open the demo ↗](https://mohamadmirzaei79.github.io/ReleaseScope/) · [Explore the source](https://github.com/mohamadmirzaei79/ReleaseScope) · [Read the tests](https://github.com/mohamadmirzaei79/ReleaseScope/blob/main/test_analysis.py)
+[![RelayDesk incident queue and timeline](https://raw.githubusercontent.com/mohamadmirzaei79/RelayDesk/main/preview.png)](https://mohamadmirzaei79.github.io/RelayDesk/)
+
+Open **INC-1042**, record a mitigation, and see the next shift’s briefing update. The demo keeps edits in your browser.
+
+In the connected edition, a Node.js gateway talks to FastAPI. PostgreSQL stores each decision with its timeline entry, and a version check prevents one operator from overwriting another’s update.
+
+[Try the incident desk ↗](https://mohamadmirzaei79.github.io/RelayDesk/) · [API](https://github.com/mohamadmirzaei79/RelayDesk/blob/main/api.py) · [Integration test](https://github.com/mohamadmirzaei79/RelayDesk/blob/main/test_gateway.mjs)
+
+</td>
+<td width="50%" valign="top">
+
+### [ReleaseScope](https://github.com/mohamadmirzaei79/ReleaseScope)
+
+**Deployment performance analysis**
+
+[![ReleaseScope checkout latency before and after deployment](https://raw.githubusercontent.com/mohamadmirzaei79/ReleaseScope/main/dashboard.png)](https://mohamadmirzaei79.github.io/ReleaseScope/)
+
+Compare checkout traffic across a deployment. In the sample release, p95 latency rises from **225 to 374 ms**. Switch to the error chart to see what else changed.
+
+The FastAPI endpoint accepts custom request timings and HTTP status codes. It uses the same Python analysis functions as the public demo, so every flagged release has an inspectable reason.
+
+[Explore a release ↗](https://mohamadmirzaei79.github.io/ReleaseScope/) · [Analysis code](https://github.com/mohamadmirzaei79/ReleaseScope/blob/main/analysis_core.py) · [Tests](https://github.com/mohamadmirzaei79/ReleaseScope/blob/main/test_analysis.py)
+
+</td>
+</tr>
+</table>
 
 ## Engineering experience
 
