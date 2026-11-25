@@ -4,6 +4,8 @@
 
 Hi, I’m Mohamad. At Sobhan Tech I build Python APIs and conversational interfaces, write the tests that exercise them, and maintain the pipelines that ship them. I started my career in DevOps, so I’m especially interested in what happens after a release.
 
+In [SupplyNote](https://github.com/mohamadmirzaei79/SupplyNote), I connect ERP inventory planning with a conversational interface and instrument the path from a buyer’s question to its supporting purchase or sales orders.
+
 Open to remote backend and DevOps roles and freelance projects. [Contact me on LinkedIn](https://www.linkedin.com/in/mohammad-mirzaei-3802b724a).
 
 ## Tech stack
@@ -15,6 +17,14 @@ Open to remote backend and DevOps roles and freelance projects. [Contact me on L
 | **Monitoring** | ![Prometheus](https://img.shields.io/badge/Prometheus-AD402A?style=flat&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-92501C?style=flat&logo=grafana&logoColor=white) |
 
 ## Featured projects
+
+### SupplyNote · ERP inventory intelligence
+
+[![SupplyNote procurement workspace](https://raw.githubusercontent.com/mohamadmirzaei79/SupplyNote/main/preview.png)](https://mohamadmirzaei79.github.io/SupplyNote/)
+
+Investigate stock shortages, ask when replenishment will arrive, and inspect the ERP document behind each answer. The local intent classifier and inventory lookup expose per-request traces and server-side Prometheus metrics.
+
+[Try the planning desk](https://mohamadmirzaei79.github.io/SupplyNote/) · [Explore the implementation](https://github.com/mohamadmirzaei79/SupplyNote)
 
 <table>
 <tr>
