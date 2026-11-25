@@ -1,17 +1,27 @@
-# Hi, I'm Mohamad Mirzaei
+![Mohamad Mirzaei | Backend Engineering and DevOps](./profile-banner.png)
 
-**Python Backend Developer & DevOps Engineer** · Isfahan, Iran
+I build Python APIs and the systems that run them. I started in DevOps in 2022, helping applications move to Linux and Kubernetes. Today I bring that experience to backend development at Sobhan Tech, where my work spans the API, the test suite, and the release pipeline.
 
-I build Python APIs and the systems that run them. I started on the infrastructure side, moving applications to Linux and deploying them on Kubernetes. That experience shapes how I write backend code today. When I build an endpoint, I also think about how to test it, ship it, and tell whether it’s working in production.
+**Isfahan, Iran** · Open to remote roles and freelance projects · [Connect on LinkedIn](https://www.linkedin.com/in/mohammad-mirzaei-3802b724a)
 
-## From code to production
+## Backend development at Sobhan Tech
 
-- **Build.** At Sobhan Tech, I develop services with FastAPI and build conversational interfaces with Chainlit. I maintain tests at three levels, from individual functions to end-to-end user flows.
-- **Ship.** I maintain CI/CD pipelines and Docker image repositories, package releases with Helm, and deploy them to Kubernetes through Argo CD.
-- **Operate.** At Mohaymen ICT, I introduced GitOps and infrastructure as code with GitLab and used Prometheus and Grafana to monitor running systems.
+*Python Backend Developer · November 2024 – present*
 
-## Where I started
+| Area | What I work on |
+| :--- | :--- |
+| **API & interfaces** | I develop backend services with FastAPI, build conversational interfaces with Chainlit, and contribute to frontend development with Node.js. |
+| **Testing** | I maintain unit tests for individual pieces of logic, integration tests for the boundaries between components, and end-to-end tests that exercise a complete user flow. |
+| **Delivery** | I maintain the CI/CD pipelines and Docker image repositories behind our releases. I use Helm charts to describe deployments and Argo CD to roll them out to Kubernetes. |
 
-Before working on backend systems, I competed in robot soccer. In 2018, I placed third in the Junior Soccer OpenWeight league at Iran Open RoboCup. I went on to study electrical engineering at Isfahan University of Technology and taught students at NODET Iran how to program microcontrollers and work with sensors.
+## Infrastructure at Mohaymen ICT
 
-I’m open to remote roles and freelance projects in Python backend development and DevOps. [Get in touch on LinkedIn](https://www.linkedin.com/in/mohammad-mirzaei-3802b724a).
+*DevOps Engineer · June 2022 – October 2024*
+
+**Containers and orchestration.** I packaged applications with Docker, supported their migration to Linux, and managed application deployments on Kubernetes with Argo CD.
+
+**GitOps and monitoring.** I introduced infrastructure as code and GitOps practices with GitLab so infrastructure changes could be tracked in version control. On the operations side, I used Prometheus for metrics and Grafana dashboards to see how systems behaved after deployment.
+
+## Background
+
+I studied electrical engineering at Isfahan University of Technology. My robotics background includes teaching microcontroller programming and placing third in junior robot soccer at Iran Open RoboCup in 2018.
