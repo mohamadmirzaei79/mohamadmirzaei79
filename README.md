@@ -2,9 +2,9 @@
 
 ## About me
 
-Hi, I’m Mohamad 👋 I’m a Python backend developer in Isfahan, Iran. At Sobhan Tech, I build and test FastAPI services and deploy them to Kubernetes. I started in DevOps, and I still enjoy figuring out how a service behaves once it’s running.
+Hi, I’m Mohamad. At Sobhan Tech I build Python APIs and conversational interfaces, write the tests that exercise them, and maintain the pipelines that ship them. I started my career in DevOps, so I’m especially interested in what happens after a release.
 
-I’m open to remote roles and freelance projects. [Connect on LinkedIn](https://www.linkedin.com/in/mohammad-mirzaei-3802b724a).
+Open to remote backend and DevOps roles and freelance projects. [Contact me on LinkedIn](https://www.linkedin.com/in/mohammad-mirzaei-3802b724a).
 
 ## Tech stack
 
@@ -26,9 +26,7 @@ I’m open to remote roles and freelance projects. [Connect on LinkedIn](https:/
 
 [![RelayDesk incident queue and timeline](https://raw.githubusercontent.com/mohamadmirzaei79/RelayDesk/main/preview.png)](https://mohamadmirzaei79.github.io/RelayDesk/)
 
-Open **INC-1042**, record a mitigation, and see the next shift’s briefing update. The demo keeps edits in your browser.
-
-In the connected edition, a Node.js gateway talks to FastAPI. PostgreSQL stores each decision with its timeline entry, and a version check prevents one operator from overwriting another’s update.
+Record a mitigation for **INC-1042** and watch the shift briefing update. The browser demo illustrates the workflow. In the connected edition, FastAPI and PostgreSQL commit each decision and its timeline entry together, with version checks for conflicting edits.
 
 [Try the incident desk ↗](https://mohamadmirzaei79.github.io/RelayDesk/) · [API](https://github.com/mohamadmirzaei79/RelayDesk/blob/main/api.py) · [Integration test](https://github.com/mohamadmirzaei79/RelayDesk/blob/main/test_gateway.mjs)
 
@@ -41,9 +39,7 @@ In the connected edition, a Node.js gateway talks to FastAPI. PostgreSQL stores 
 
 [![ReleaseScope checkout latency before and after deployment](https://raw.githubusercontent.com/mohamadmirzaei79/ReleaseScope/main/dashboard.png)](https://mohamadmirzaei79.github.io/ReleaseScope/)
 
-Compare checkout traffic across a deployment. In the sample release, p95 latency rises from **225 to 374 ms**. Switch to the error chart to see what else changed.
-
-The FastAPI endpoint accepts custom request timings and HTTP status codes. It uses the same Python analysis functions as the public demo, so every flagged release has an inspectable reason.
+Investigate a sample checkout release where p95 latency climbs from **225 to 374 ms**. The dashboard and FastAPI endpoint share a Python analysis engine that reports which latency or error threshold triggered a review.
 
 [Explore a release ↗](https://mohamadmirzaei79.github.io/ReleaseScope/) · [Analysis code](https://github.com/mohamadmirzaei79/ReleaseScope/blob/main/analysis_core.py) · [Tests](https://github.com/mohamadmirzaei79/ReleaseScope/blob/main/test_analysis.py)
 
@@ -51,22 +47,12 @@ The FastAPI endpoint accepts custom request timings and HTTP status codes. It us
 </tr>
 </table>
 
-## Engineering experience
+## Experience
 
-**Sobhan Tech · Python Backend Developer**  
-November 2024 – present
+**Sobhan Tech · Python Backend Developer** · Nov 2024 – present  
+Build FastAPI services and Chainlit interfaces, maintain unit through end-to-end coverage, and deliver releases with Docker, Helm and Argo CD.
 
-- I build APIs with FastAPI and conversational interfaces with Chainlit. My tests cover individual functions, interactions between components, and end-to-end user flows.
-- I maintain CI/CD pipelines and Docker image repositories. I package applications with Helm and deploy them to Kubernetes with Argo CD.
+**Mohaymen ICT · DevOps Engineer** · Jun 2022 – Oct 2024  
+Containerized applications during a Linux migration, introduced GitOps with GitLab, and monitored Kubernetes workloads using Prometheus and Grafana.
 
-**Mohaymen ICT · DevOps Engineer**  
-June 2022 – October 2024
-
-- I containerized applications with Docker, helped migrate them to Linux, and managed Kubernetes deployments with Argo CD.
-- I introduced infrastructure as code and GitOps practices with GitLab. I used Prometheus metrics and Grafana dashboards to track how services behaved after deployment.
-
-## Let’s connect
-
-If your team needs someone who can build a Python service, test it, and own its path to Kubernetes, [reach me on LinkedIn](https://www.linkedin.com/in/mohammad-mirzaei-3802b724a).
-
-<sub>Electrical engineering graduate of Isfahan University of Technology · Third place in junior robot soccer, Iran Open RoboCup 2018.</sub>
+<sub>B.Sc. in Electrical Engineering, Isfahan University of Technology · Third place, Iran Open RoboCup junior soccer, 2018.</sub>
